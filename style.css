@@ -55,9 +55,47 @@ body {
   */
 
   .grdn {
-    background-color: rgb(70, 166, 183);
+    background-color: #1ae8e5;
     margin-left: 500px;
+    margin-bottom: 50px;
     box-sizing: border-box;
-    width: 300px;
+    width: 600px;
     text-align: center;
+    border: 2px solid lightblue;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.35), 0 4px 8px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 24px 48px rgba(246, 246, 246, 0.45), 0 8px 14px rgba(246, 246, 246, 0.45);
+    border-radius: 15px;
+
   }
+
+
+
+  #zen-summary  {
+    color:aqua;
+  }
+
+  #zen-summary .link1:hover {
+    background-color: turquoise;
+    transition: 0.7s;box-shadow: 0 12px 24px rgba(0, 0, 0, 0.35), 0 4px 8px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 24px 48px rgba(246, 246, 246, 0.45), 0 8px 14px rgba(246, 246, 246, 0.45);
+    border-radius: 15px;
+  }
+
+  #zen-summary .link1 {
+    color:rgb(157, 155, 155)
+  }
+
+.Bigboi {
+  margin-top: 100px;
+}
+
+
+.intro #zen-summary {
+  border: 2px solid lightblue;
+  background-color: rgb(4, 105, 105);
+  width: 500px;
+  margin-left: 500px;
+  box-shadow: 0 50px 48px rgb(8, 175, 178), 0 8px 14px rgba(246, 246, 246, 0.45);
+  border-radius: 15px;
+}
+
